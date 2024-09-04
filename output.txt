@@ -1,0 +1,355 @@
+Script started on Sat 25 Nov 2023 12:18:45 PM HST
+]0;jarrenys@uhx02:~/project2[?1034huhx02:/home/j/jarrenys/project2% ./project_debug
+
+/***************************************************************************
+//ENTERING: readfile
+/***************************************************************************
+
+/***************************************************************************
+//YOU ARE NOW IN DEBUG MODE
+/***************************************************************************
+	Hello! Welcome to Jarren bank!
+
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: p
+
+/***************************************************************************
+//ENTERING: printAllRecords
+/***************************************************************************
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: a
+
+	Enter account number: 2
+
+	Enter your address: 1
+1111111111111111111111111111111111111111111111111111111
+
+	Enter your name: jarren
+
+/**************************************************************************
+//ENTERING: addRecord
+//Parameters
+//Account Number: 2
+//Name: jarren
+//Address: 1
+11111111111111111111111111111111111111111111111
+***************************************************************************
+
+
+	Account with account number 2 already exists
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: find
+
+	Enter account number: 2
+
+/***************************************************************************
+//ENTERING: findRecord
+//Parameters
+Account Number:2
+/***************************************************************************
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: del
+
+	Enter account number: 2
+
+/***************************************************************************
+//ENTERING: deleteRecord
+//Parameters
+//Account Number: 2
+/***************************************************************************
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: d quit
+
+/***************************************************************************
+//ENTERING: ~llist
+/***************************************************************************
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% ./project2
+
+	Hello! Welcome to Jarren bank!
+
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: a
+
+	Enter account number: 1
+
+	Enter your address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+	Enter your name: jarren
+
+
+	Account added
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: print
+
+	Account#: 1
+	Name: jarren
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: a
+
+	Enter account number: 0
+
+	Enter an account number greater than 0!
+
+	Enter account number: -1
+
+	Enter an account number greater than 0!
+
+	Enter account number: aa
+
+	Enter an account number greater than 0!
+
+	Enter account number: 2
+
+	Enter your address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+	Enter your name: jarre     ravi
+
+
+	Account added
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: add
+
+	Enter account number: 1
+
+	Enter your address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+	Enter your name: ass
+
+
+	Account with account number 1 already exists
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: print
+
+	Account#: 2
+	Name: ravi
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+	Account#: 1
+	Name: jarren
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: a
+
+	Enter account number: 3
+
+	Enter your address: jarrenfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
+	Enter your name: hangbo
+
+
+	Account added
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: print
+
+	Account#: 3
+	Name: hangbo
+	Address: jarrenfffffffffffffffffffffffffffffffffffffffffff
+
+	Account#: 2
+	Name: ravi
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+	Account#: 1
+	Name: jarren
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: del
+
+	Enter account number: 1
+
+
+	Account deleted successfully
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: print
+
+	Account#: 3
+	Name: hangbo
+	Address: jarrenfffffffffffffffffffffffffffffffffffffffffff
+
+	Account#: 2
+	Name: ravi
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: del
+
+	Enter account number: 2 3
+
+
+	Account deleted successfully
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: print
+
+	Account#: 2
+	Name: ravi
+	Address: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: del
+
+	Enter account number: 2
+
+
+	Account deleted successfully
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: print
+
+
+	The database is empty
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: quit
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% exit
+exit
+
+Script done on Sat 25 Nov 2023 12:20:38 PM HST

@@ -1,0 +1,137 @@
+Script started on Sat 25 Nov 2023 12:10:43 PM HST
+]0;jarrenys@uhx02:~/project2[?1034huhx02:/home/j/jarrenys/project2% touch *.cpp
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f debug.mak
+g++ -Ddebug -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -Ddebug -ansi -pedantic-errors -Wall -c llist.cpp
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kint llist::addRecord(int, char*, char*)[m[K’:
+[01m[Kllist.cpp:46:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprevious_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record * previous_record;
+[01;32m[K                     ^[m[K
+[01m[Kllist.cpp:47:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record * current_record;
+[01;32m[K                     ^[m[K
+[01m[Kllist.cpp:48:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [-Wunused-variable]
+     struct record * temp;
+[01;32m[K                     ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kvoid llist::printAllRecords()[m[K’:
+[01m[Kllist.cpp:123:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [-Wunused-variable]
+     struct record* temp;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:124:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knext_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record* next_record;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kint llist::findRecord(int)[m[K’:
+[01m[Kllist.cpp:163:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [-Wunused-variable]
+     struct record* temp;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:164:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knext_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record* next_record;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kint llist::deleteRecord(int)[m[K’:
+[01m[Kllist.cpp:218:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knext_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record* next_record;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:219:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record* current_record;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:220:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [-Wunused-variable]
+     struct record* temp = NULL;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kint llist::writefile()[m[K’:
+[01m[Kllist.cpp:301:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knext_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record* next_record;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:302:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktemp[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record* temp;
+[01;32m[K                    ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kint llist::readfile()[m[K’:
+[01m[Kllist.cpp:378:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaccountno[m[K’ [-Wunused-variable]
+     int accountno;
+[01;32m[K         ^[m[K
+[01m[Kllist.cpp:379:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kname[m[K’ [-Wunused-variable]
+     char name[30];
+[01;32m[K          ^[m[K
+[01m[Kllist.cpp:380:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaddress[m[K’ [-Wunused-variable]
+     char address[50];
+[01;32m[K          ^[m[K
+[01m[Kllist.cpp:381:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KclearBuffer[m[K’ [-Wunused-variable]
+     char clearBuffer[40];
+[01;32m[K          ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kvoid llist::cleanup()[m[K’:
+[01m[Kllist.cpp:466:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knext_record[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record * next_record;
+[01;32m[K                     ^[m[K
+[01m[Kllist.cpp:467:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [-Wunused-variable]
+     struct record * temp;
+[01;32m[K                     ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kint llist::deleteRecord(int)[m[K’:
+[01m[Kllist.cpp:272:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreturn_value[m[K’ is used uninitialized in this function [-Wuninitialized]
+     return return_value;
+[01;32m[K            ^[m[K
+g++ -o project_debug user_interface.o llist.o  
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f debug.mak
+make: `project_debug' is up to date.
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% touch user_interface.cpp
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f debug.mak
+g++ -Ddebug -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project_debug user_interface.o llist.o  
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% touch *.o
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f debug.mak
+g++ -o project_debug user_interface.o llist.o  
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% touch *.cpp
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f d[Krelease.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project2 user_interface.o llist.o  
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f release.mak
+make: `project2' is up to date.
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% touch user_interface.cpp
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f release.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project2 user_interface.o llist.o  
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% touch *.o
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% make -f release.mak
+g++ -o project2 user_interface.o llist.o  
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% exit[K[K[K[K./project_debug
+
+/***************************************************************************
+//ENTERING: readfile
+/***************************************************************************
+
+/***************************************************************************
+//YOU ARE NOW IN DEBUG MODE
+/***************************************************************************
+	Hello! Welcome to Jarren bank!
+
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: quit
+
+/***************************************************************************
+//ENTERING: ~llist
+/***************************************************************************
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% ./project1[K2
+
+	Hello! Welcome to Jarren bank!
+
+
+
+	Actions
+	add: add a new record to the database
+	printall: print all records in the database
+	find: find record with a specified account #
+	delete: delete existing record with given account number from the database
+	quit: quit the program
+
+	Select an action: quit
+]0;jarrenys@uhx02:~/project2uhx02:/home/j/jarrenys/project2% exit
+exit
+
+Script done on Sat 25 Nov 2023 12:12:51 PM HST

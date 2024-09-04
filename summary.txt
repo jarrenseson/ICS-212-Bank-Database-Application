@@ -1,0 +1,1 @@
+All requirements were met. Imeplemented the copy constructor and the assignment operator. One future enchancement could be to make the commands not case sensetive.
